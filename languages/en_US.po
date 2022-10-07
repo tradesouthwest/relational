@@ -1,0 +1,588 @@
+# Copyright (C) 2022 Tradesouthwest
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Relational 1.0.1\n"
+"Report-Msgid-Bugs-To: https://support.tradesouthwest.com\n"
+"POT-Creation-Date: 2022-09-06 15:31-0700\n"
+"PO-Revision-Date: 2022-09-06 15:31-0700\n"
+"Last-Translator: \n"
+"Language-Team: Tradesouthwest\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;_e;__;_x;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments-count.php:34
+msgid "1 Response"
+msgstr ""
+
+#: comments.php:35
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: comments.php:37
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: comments.php:46
+msgid "Send"
+msgstr ""
+
+#: comments.php:49
+msgid "Reply or Comment"
+msgstr ""
+
+#: comments.php:53
+msgid "You may use these "
+msgstr ""
+
+#: comments.php:54
+msgid "HyperText Markup Language"
+msgstr ""
+
+#: comments.php:55
+msgid "HTML"
+msgstr ""
+
+#: comments.php:56
+msgid " tags and attributes: "
+msgstr ""
+
+#: comments.php:61
+msgid "Respond"
+msgstr ""
+
+#: comments.php:62
+msgid "Comment textarea box"
+msgstr ""
+
+#: comments.php:68
+msgid "You must be "
+msgstr ""
+
+#: comments.php:69
+msgid "logged in "
+msgstr ""
+
+#: comments.php:70
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:74
+msgid "Your email address will not be published."
+msgstr ""
+
+#: footer.php:15 header.php:76
+msgid "Y"
+msgstr ""
+
+#: footer.php:16 header.php:77
+msgid "Copyright "
+msgstr ""
+
+#: functions.php:111
+msgid "medium grayish"
+msgstr ""
+
+#: functions.php:116
+msgid "theme scheme color"
+msgstr ""
+
+#: functions.php:152
+msgid "Main Menu Top"
+msgstr ""
+
+#: functions.php:153
+msgid "Social Link in Header"
+msgstr ""
+
+#: functions.php:259
+msgid "click/tap here to copy link"
+msgstr ""
+
+#: functions.php:527
+msgid "hover aside to copy link"
+msgstr ""
+
+#: functions.php:618
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: functions.php:634
+msgid "Sidebar as Footer"
+msgstr ""
+
+#: functions.php:635
+msgid "Used on every page."
+msgstr ""
+
+#: functions.php:721
+msgid "Theme Information"
+msgstr ""
+
+#: functions.php:722
+msgid "Relational Help"
+msgstr ""
+
+#: header.php:12
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:25 inc/theme-options.php:258
+msgid "Header and Lead Text"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Colors and Theme Branding"
+msgstr ""
+
+#: inc/customizer.php:35 inc/theme-options.php:267
+msgid "Theme and Font Settings"
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Select font type for theme"
+msgstr ""
+
+#: inc/customizer.php:55 inc/theme-options.php:264
+msgid "Color for title and description"
+msgstr ""
+
+#: inc/customizer.php:73 inc/theme-options.php:260
+msgid "MAX width of Logo"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Percent (number) of size changes width of logo."
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "World Wide Website"
+msgstr ""
+
+#: inc/customizer.php:90 inc/theme-options.php:262
+msgid "Write a Lead Line for the Header"
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Appears just below site title and tag line. Try Authored by..."
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Font Choices"
+msgstr ""
+
+#: inc/customizer.php:108 inc/theme-options.php:269
+msgid "Choose Monospace, Arial, Montserrat"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "B612 Mono"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Montserrat"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Helvetica, Arial font-stack"
+msgstr ""
+
+#: inc/customizer.php:116
+msgid "Georgia, serif font-stack"
+msgstr ""
+
+#: inc/customizer.php:131 inc/theme-options.php:271
+msgid "Select Alignment of Text"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Aligns content text left, right or justify."
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Justify equal width text"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Standard Left alignment"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Center text alignment"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Right alignment ltr maybe"
+msgstr ""
+
+#: inc/customizer.php:152 inc/theme-options.php:273
+msgid "Thumbnail Position for Excerpts"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Will only show thumbnail if one exists."
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "Display as background image"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Display above the exceprt"
+msgstr ""
+
+#: inc/customizer.php:160
+msgid "Thumbnail to the side of excerpt"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "No thumbnail at all"
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Authoring Position for Posts"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid ""
+"Set the desired position of author information box. Affects singular post "
+"only."
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Display directly below post article"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "Display above post article"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Display to the side of article"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "No author box at all"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Author Heading"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Label at top of author box. Leave blank for none"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Advert or Text"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Text or image below author box. Blank for none"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Remove Advert Boxes"
+msgstr ""
+
+#: inc/customizer.php:222
+msgid ""
+"Check to remove Advert or Text box under from authorbox &amp; above headings."
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "opens in new window tab"
+msgstr ""
+
+#: inc/customizer.php:234 inc/theme-options.php:281
+msgid "Remove Comment Count"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Check to remove comment counts in post excerpt footer meta."
+msgstr ""
+
+#: inc/customizer.php:246 inc/theme-options.php:283
+msgid "Remove Comments From PAGES"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "Check to remove the displaying of comments in pages (not posts)."
+msgstr ""
+
+#: inc/customizer.php:259 inc/theme-options.php:275
+msgid "Remove Accent Clutter"
+msgstr ""
+
+#: inc/customizer.php:260
+msgid ""
+"Check to remove allowed tags from comment box &amp; accents &amp; dashed "
+"titles."
+msgstr ""
+
+#: inc/customizer.php:272
+msgid "Remove Reading Progress Bar"
+msgstr ""
+
+#: inc/customizer.php:273
+msgid "Check to remove the progress bar on sides of posts pages"
+msgstr ""
+
+#: inc/customizer.php:283 inc/theme-options.php:277
+msgid "Remove Emojicons"
+msgstr ""
+
+#: inc/customizer.php:284
+msgid "Check box to remove emojicons from theme head. Speeds up page loads."
+msgstr ""
+
+#: inc/customizer.php:296 inc/theme-options.php:279
+msgid "Remove Hover Link"
+msgstr ""
+
+#: inc/customizer.php:297
+msgid "Check box to remove copy-page-URL link in heading of pages. "
+msgstr ""
+
+#: inc/customizer.php:314 inc/theme-options.php:293
+msgid "Color scheme for buttons and icons"
+msgstr ""
+
+#: inc/customizer.php:331
+msgid "Color for navigation and titles"
+msgstr ""
+
+#: inc/customizer.php:348 inc/theme-options.php:295
+msgid "Background for left section"
+msgstr ""
+
+#: inc/customizer.php:365 inc/theme-options.php:297
+msgid "Background for Main content right"
+msgstr ""
+
+#: inc/customizer.php:383
+msgid "Overlay Mask for Excerpt"
+msgstr ""
+
+#: inc/customizer.php:384
+msgid ""
+"Select color and opacity of background overlay for \n"
+"                         excerpts with thumbnails."
+msgstr ""
+
+#: inc/customizer.php:386
+msgid "Learn RGBA at www.w3.org/wiki/CSS/Properties/color/RGBA"
+msgstr ""
+
+#: inc/customizer.php:388
+msgid "Example CSS \"rgba(255, 255, 255, .4)\""
+msgstr ""
+
+#: inc/theme-options.php:238
+msgid "Basic Information"
+msgstr ""
+
+#: inc/theme-options.php:245
+msgid "Debug Information"
+msgstr ""
+
+#: inc/theme-options.php:254
+msgid "Theme Help"
+msgstr ""
+
+#: inc/theme-options.php:255
+msgid ""
+"Relational is a blogging theme made for WordPress. Not over complex but just "
+"the right mix of customization tools to create a very versatile website. "
+"Features include fast loading templates, color scheme in Customizer, add "
+"lead text to header and an additional menu where you add your social links "
+"into header space. Footer switches between sections according to width of "
+"device viewing. Relational has an option to show comment count or not show. "
+"You can pick how to display a featured image: above or as background or even "
+"not show at all. Control thumbnail overlays in the Customizer. Relation "
+"theme uses Dashicons on frontend to save font imports and we use a classic "
+"font-stack as well as two font layers built into the theme so you do not "
+"have to ping any font CDN. Has attachment template for full page image "
+"display. Add custom header image or logo. Anchor link on every page makes it "
+"easy to copy page URI for convenient sharing. Fast and dependable theme for "
+"WordPress. Perfect for blogging or authoring news or company updates. "
+"prefers-reduced-motion is supported. All navigation to main top menu is pure "
+"CSS with no javascript to enhance functionality and speed."
+msgstr ""
+
+#: inc/theme-options.php:261
+msgid ""
+"Set the width of the header image in sidemount section. Default is 100 "
+"percent."
+msgstr ""
+
+#: inc/theme-options.php:263
+msgid ""
+"This can be any text that you want to display just below the theme "
+"description and title, located in the left side section."
+msgstr ""
+
+#: inc/theme-options.php:265
+msgid ""
+"Select a color for the text in the side-left column that works best to "
+"offset background color."
+msgstr ""
+
+#: inc/theme-options.php:270
+msgid ""
+"There are three font types that come with Relational. Select one. You can "
+"change to your own fonts using the theme customizer by adding a font-family "
+"to the body element in the Customizer Additional CSS section."
+msgstr ""
+
+#: inc/theme-options.php:272
+msgid ""
+"This option sets the text to either left, right or center adjusted alignment "
+"for all paragraphs and any content that is inside of a blog post or a "
+"generic page. The alignment can be changed on a per paragraph or per page "
+"choice by using the WordPress editor settings. Content effected by this "
+"option is any content wrapped in the \"inner-content\" style selector."
+msgstr ""
+
+#: inc/theme-options.php:274
+msgid ""
+"Thumbnails are the Featured Image that you select when you creat a post. "
+"This setting gives you the option to show your thumbnail image as a "
+"background image which fits the same size as the height of you excerpt in "
+"the blog posts excerts/blog page. Or you can have the Featured Image appear "
+"above the blog excerpt as a full sized image (not really a thumbnail but a "
+"fully Featured Image). You can also hide thumbnails completely with the last "
+"setting \"No thumbnail at all\""
+msgstr ""
+
+#: inc/theme-options.php:276
+msgid ""
+"Checking this box removes dashed underlines in titles; space around and some "
+"text from under the comments form area."
+msgstr ""
+
+#: inc/theme-options.php:278
+msgid ""
+"Removing emojicons from WordPress will save bandwidth on your server. This "
+"would be a good practice in general but would mostly be done only if you are "
+"sure none of your users are using a device that utilizes emoji icons or if "
+"you know that your site is not going to be promoting the use of emojicons."
+msgstr ""
+
+#: inc/theme-options.php:280
+msgid ""
+"There is a link, with an icon, in the top corner of each post and on some or "
+"most of the pages with the exception of the blog posting page. If you want "
+"to remove the custom link then check this box. The purpose of this link if "
+"so that you can share the article by copying the link which, is the URL of "
+"the page you are currently on. Once it is copied to your clipboard, you can "
+"paste that link into email of other media sources."
+msgstr ""
+
+#: inc/theme-options.php:282
+msgid ""
+"Comment counter is located in the foot of each blog post exceprt, just "
+"underneath the excerpt, in what is known as the excerpt meta-footer. "
+"Removing the count simply removes clutter that readers may find distracting "
+"or that the article author may not want to show the count due to some "
+"promotional philosophies."
+msgstr ""
+
+#: inc/theme-options.php:284
+msgid ""
+"Comments are normally only part of the blog post posts. This theme allows "
+"comments to pages. You may remove this special function by checking the box "
+"and saving the customizer settings."
+msgstr ""
+
+#: inc/theme-options.php:287
+msgid "Colors and theme Branding"
+msgstr ""
+
+#: inc/theme-options.php:289
+msgid "Header Text Color"
+msgstr ""
+
+#: inc/theme-options.php:290
+msgid ""
+"Changes the color of the single page, single post article and site heading "
+"H2 tags and the main site-title in sidebar as well."
+msgstr ""
+
+#: inc/theme-options.php:291
+msgid "Background Color"
+msgstr ""
+
+#: inc/theme-options.php:292
+msgid ""
+"Sets the background color for the entire site body. You might only see this "
+"if you have white space around your content. Otherwise this may not change "
+"much, visually."
+msgstr ""
+
+#: inc/theme-options.php:294
+msgid "Controls color of icons and theme submit form buttons."
+msgstr ""
+
+#: inc/theme-options.php:296
+msgid "Controls background color of side-left section."
+msgstr ""
+
+#: inc/theme-options.php:298
+msgid "Controls background color of main content section."
+msgstr ""
+
+#: inc/theme-options.php:300
+msgid "Up to Top Link"
+msgstr ""
+
+#: inc/theme-options.php:301
+msgid ""
+"Use faux-footer class name in Customizer Additional CSS to hide or change "
+"the Up to Top button."
+msgstr ""
+
+#: nav-content.php:14
+msgid "Older posts"
+msgstr ""
+
+#: nav-content.php:26
+msgid "Newer posts"
+msgstr ""
+
+#: nav-content.php:42
+msgid "Previous Post"
+msgstr ""
+
+#: nav-content.php:44
+msgid "&laquo; Previous: "
+msgstr ""
+
+#: nav-content.php:48
+msgid "Next Post"
+msgstr ""
+
+#: nav-content.php:50
+msgid "Next: "
+msgstr ""
+
+#: nav-content.php:73
+msgid "Search"
+msgstr ""
+
+#: single.php:25
+msgid "percent of page read"
+msgstr ""
+
+#: single.php:103 single.php:104
+msgid "Up to Top"
+msgstr ""
