@@ -4,7 +4,7 @@ Theme Name:     Relational
 Author:         Tradesouthwest
 Author URI:     https://tradesouthwest.com/
 Text Domain:    Relational
-Test up to:     6.0.1
+Test up to:     6.8.2
 Tags:           one-column, two-columns, translation-ready, footer-widgets, blocks
 License:        GPL 3
 License URI:    https://www.gnu.org/licenses/quick-guide-gplv3.en.html
@@ -23,7 +23,21 @@ Relational is distributed under the terms of the GNU GPL
 * To set up social media links in the page sidemounted header: Appearance > Menus - then <Custom Links> to the left. Footer does not support depths of the child links below it. (No drop downs)
 https://www.jqueryscript.net/other/slim-scroll-progress-indicator.html
 == Change Log ==
-1.0.4
+1.1.3
+- removed tsw text from footer
+- updated stylesheet
+
+1.1.2
+- added jquery-slim unminified
+- fixed focus on content
+- bump test upto
+
+1.1.1
+- added header image parameters
+- remove default background color for sidemounet and content sections
+- removed comment // register new phone-landscape featured image size. @width, @height, and @crop
+
+1.1.0
 - added web-accesible support for tab key navigation
 - shifted mobile ready menu elements to fit on screen
 

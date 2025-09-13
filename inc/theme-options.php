@@ -236,14 +236,14 @@ function relational_siteinfo_admin_render(){
     
     <section>
     <h2><?php _e( 'Basic Information', 'relational'); ?></h2>
-
     <div id="relational-short" style="background:#aafafa;height:3em">
         <?php echo relational_short_basic_debug_info(); ?>
     </div>
     <hr id="relational-hr"><br>
-
+    <div id="relational-short" style="background:#aafafa;height:3em">
+        <?php echo relational_change_log_info(); ?>
+    </div>
     </section>
-
     <?php } else { ?>
 
     <section><h2><?php esc_html_e( 'Theme Help', 'relational' ); ?></h2>
@@ -405,4 +405,29 @@ function relational_basic_debug_info( $html = true ) {
     } else {
         return $versions;
     }
+}
+function relational_change_log_info(){
+
+    $html = 
+    '<pre>
+    == Change Log ==
+    1.1.1
+    - added header image parameters
+    - remove default background color for sidemounet and content sections
+    - removed comment // register new phone-landscape featured image size. @width, @height, and @crop
+
+    1.1.0
+    - added web-accesible support for tab key navigation
+    - shifted mobile ready menu elements to fit on screen
+
+    1.0.31
+    - fixed no excerpt clearfix
+    - fixed spacing in social header
+    - fixed menu width
+
+    1.0.3
+    - added sanity to some translations
+    </pre>'; 
+    
+        return $html;
 }

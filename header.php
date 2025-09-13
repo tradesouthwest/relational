@@ -8,7 +8,7 @@
 </head>
 
 <body <?php body_class(); ?>><?php wp_body_open(); ?>
-<a class="skip-link screen-reader-text" href="#content">
+<a class="skip-link screen-reader-text" href="#Main">
     <?php esc_attr_e( 'Skip to content', 'relational' ); ?></a>
 
 <div class="page-wrap">

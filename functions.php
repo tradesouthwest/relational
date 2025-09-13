@@ -3,7 +3,7 @@
  * Functions for theme Relational by Tradesouthwest
  * 
  * Sets up theme defaults and registers support for various WordPress features.
- * @version 1.0.2
+ * @version 1.1.3
  * @since   1.0.0
  */
 /**
@@ -72,7 +72,7 @@ add_filter( 'excerpt_more',               'relational_custom_excerpt_more' );
  * Setup function is hooked into the after_setup_theme hook, which runs before the init hook. 
  * The init hook is too late for some features, such as indicating support for post thumbnails.
  *
- * @since 1.0.1
+ * @since 1.1.1
  *
  * @id f1
  */
@@ -118,9 +118,7 @@ function relational_theme_setup() {
             'color' => get_theme_mod( 'relational_theme_color', '#40b76a' ),
         ),  
     ) );
-    
     add_theme_support( 'post-thumbnails', array( 'post', 'page') );
-    // register new phone-landscape featured image size. @width, @height, and @crop
     add_image_size( 'relational-featured', 520, 300, false);   
     add_theme_support( "custom-header",  array(
         'default-image'          => '',
@@ -128,6 +126,10 @@ function relational_theme_setup() {
         'random-default'         => false,
         'header-text'            => false,
         'default-text-color'     => '000',
+        'width'                  => 1200,
+        'height'                 => 1600,
+        'flex-height'            => true,
+        'flex-width'             => true,
         'wp-head-callback'       => '',
         'admin-head-callback'    => '',
         'admin-preview-callback' => '',
@@ -142,10 +144,8 @@ function relational_theme_setup() {
 	   'admin-preview-callback' => ''
     ) );
     add_theme_support( 'custom-logo' );
-
     // woocommerce filters in lower part of this file
     add_theme_support( 'woocommerce' );
-
     // main nav in header - also nav menu in side-header
     register_nav_menus(
         array(
@@ -191,10 +191,10 @@ function relational_content_width() {
  * $handle, $src, $deps, $ver, $in_footer
  * @id f4
  * @since 1.0.0 
+ * @uses  Can use jquery-slim.min.js that is included in dist folder
  */
-
 function relational_theme_scripts() {
-    $ver = time();
+    
     // Load the main stylesheet.
     wp_enqueue_style( 'relational-style', get_stylesheet_uri() );
     // Add Dashicons, used in the main stylesheet.
@@ -202,7 +202,7 @@ function relational_theme_scripts() {
     
     wp_enqueue_script( 'jquery-slim', 
 	                    get_template_directory_uri()  
-	                   . '/dist/jquery-slim.min.js', 
+	                   . '/dist/jquery-slim.js',     /* .min */
 	                    array( 'jquery' ) 
                         ); 
     wp_enqueue_script( 'relational-progress', 

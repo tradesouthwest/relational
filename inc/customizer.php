@@ -389,7 +389,7 @@ function relational_register_theme_customizer_setup($wp_customize)
     ) );
 
 }
-
+ 
 // Easy Boolean checker for checkbox
 function relational_sanitize_checkbox( $checked ) {
 	// Boolean check.
